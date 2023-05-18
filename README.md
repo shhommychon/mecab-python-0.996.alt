@@ -1,14 +1,14 @@
-MeCab python module for MeCab 0.996
+# fork of [python module for MeCab 0.996](https://bitbucket.org/eunjeon/mecab-python-0.996/)
 ===================================
 
 ## 소개
 
-[MeCab](http://mecab.googlecode.com/svn/trunk/mecab/doc/index.html)에서 제공하는 [python 바인딩 소스](https://code.google.com/p/mecab/downloads/detail?name=mecab-python-0.996.tar.gz&can=2&q=)가 Python 3.x에서 문제를 일으키므로 SWIG를 최신  버전(SWIG 3.0.0)을 사용하여 다시 생성한 소스입니다.
+[konlpy](https://github.com/konlpy/konlpy)에서 제공하는 [MeCab 설치 코드](https://github.com/konlpy/konlpy/blob/master/scripts/mecab.sh) 중 [eunjeon/mecab-python-0.996] 레포지토리를 이용하는 [부분](https://github.com/konlpy/konlpy/blob/master/scripts/mecab.sh#L156)이 특정 환경에서 제대로 작동하지 않는 문제가 있어, 이를 해결하기 위한 workaround 용도로 생성한 소스입니다.
 
 ## 설치
 
     :::text
-    % git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
+    % git clone https://github.com/shhommychon/mecab-python-0.996.alt.git
     % cd mecab-python-0.996
     % python setup.py build
     % su
